@@ -1,0 +1,16 @@
+#Player A rules
+
+#Tile options
+-gt #Tiled
+-gB4 #4bpp
+-gzl #LZ77
+-gu8 #Unsigned short
+
+#Meta tiling
+-Mw 4
+-Mh 4
+
+#Palette options
+-p #Include palette
+-pzl #LZ77
+-pu8 #Unsigned short

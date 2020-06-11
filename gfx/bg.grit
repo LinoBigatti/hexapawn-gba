@@ -1,0 +1,18 @@
+#BG rules
+
+#Tile options
+-gt #Tiled
+-gzl #LZ77
+-gu8 #Unsigned short
+
+#Map options
+-m #Enable mapping
+-mLf #Flat map
+-mR8 #Tile and flip reduction
+-mzl #LZ77
+-mu8 #Unsigned short
+
+#Palette options
+-p #Include palette
+-pzl #LZ77
+-pu8 #Unsigned short

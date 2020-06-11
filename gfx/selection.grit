@@ -1,0 +1,11 @@
+#Rules for the selection square
+
+#Tile options
+-gt #Tiled
+-gB4 #4bpp
+-gzl #LZ77
+-gu8 #Unsigned short
+
+#Meta tiling
+-Mw 4
+-Mh 4
