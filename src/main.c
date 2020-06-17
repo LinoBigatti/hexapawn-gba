@@ -1,12 +1,14 @@
 #include <basics/types.h>
 #include <IO.h>
+#include <basics/vsync.h>
 
 #include "interrupt.h"
 #include "gfx.h"
-//#include "game.h"
+#include "game.h"
 
 int main(void) {
 	loadGfx(); //Init graphics
+	setupBoard(); //Set up board variables.
 	
 	//Load interrupts
 	IO_ISR = interrupt;
@@ -18,7 +20,7 @@ int main(void) {
 	while(1) {
 		VBlankIntrWait();
 
-		//tick();
+		tick();
 	}
 
 	return 0;

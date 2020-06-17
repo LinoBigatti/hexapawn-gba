@@ -104,9 +104,6 @@ $(GFX) : $(SRC_BASE)/gfx/%.c : $(GFX_BASE)/%.png
 	@mv $*.c $@
 	@echo GFX source $< converted to SRC file $@.
 
-test : $(GFX) $(OBJS)
-	echo $(OBJS)
-
 #Cleaning.
 
 .PHONY : clean
