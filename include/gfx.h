@@ -16,6 +16,11 @@
 #include "gfx/playerA.h"
 #include "gfx/playerB.h"
 
+extern obj_attributes *selectionA;
+extern obj_attributes *selectionB;
+extern obj_attributes *playerA;
+extern obj_attributes *playerB;
+
 extern void loadPiece(obj_attributes *obj, u32 x, u32 y, int pal, int tile);
 
 extern void loadGfx(void);

@@ -24,6 +24,7 @@ void loadGfx(void) {
 
 	loadPiece(selectionA, 1, 2, 0, 0);
 	loadPiece(selectionB, 1, 0, 1, 0);
+	toggleSelection(selectionB);
 	loadPiece((obj_attributes *)&playerA[0], 0, 2, 0, 32);
 	loadPiece((obj_attributes *)&playerA[1], 1, 2, 0, 32);
 	loadPiece((obj_attributes *)&playerA[2], 2, 2, 0, 32);
