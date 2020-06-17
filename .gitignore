@@ -1,0 +1,9 @@
+build/*.o
+build/*.elf
+
+include/gfx/*.h
+
+src/gfx/*.c
+
+*.gba
+*.map
