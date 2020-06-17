@@ -42,17 +42,34 @@ void playerTick(void) {
 			}
 		} else {
 			if(selectedPlace == 0) {
-				movePiece(selectionX, selectionY, prevX, prevY, 1);
+				if(selectionY == prevY - 1 && selectionX == prevX) {
+					movePiece(selectionX, selectionY, prevX, prevY, 1);
 				
-				playerState = 0;
-				toggleSelection(selectionB);
-				toggleSelection(selectionA);
+					playerState = 0;
+					toggleSelection(selectionB);
+					toggleSelection(selectionA);
 
-				selectionX = 1;
-				selectionY = 2;
-				moveObj(selectionA, selectionX, selectionY);
+					selectionX = 1;
+					selectionY = 2;
+					moveObj(selectionA, selectionX, selectionY);
 
-				turn = AI;
+					turn = AI;
+				}
+			} else if(selectedPlace == 2) {
+				if(selectionY == prevY - 1 && (selectionX == prevX - 1 ||
+											  selectionX == prevX + 1)) {
+					movePiece(selectionX, selectionY, prevX, prevY, 1);
+				
+					playerState = 0;
+					toggleSelection(selectionB);
+					toggleSelection(selectionA);
+
+					selectionX = 1;
+					selectionY = 2;
+					moveObj(selectionA, selectionX, selectionY);
+
+					turn = AI;
+				}
 			}
 		}
 	}
