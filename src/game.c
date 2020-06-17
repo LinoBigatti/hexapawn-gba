@@ -8,17 +8,17 @@ int selectionX = 1;
 int selectionY = 2;
 int prevX = 1;
 int prevY = 2;
-
 int playerState = 0;
-obj_attributes *selectedPiece;
+
+int aiState = 0;
+int prevXai = 1;
+int prevYai = 2;
 
 void tick(void) {
 	if(turn == PLAYER) {
 		playerTick();
 	} else {
-		//aiTick()
-
-		turn = PLAYER;
+		aiTick();
 	}
 }
 
@@ -35,7 +35,6 @@ void playerTick(void) {
 
 		if(playerState == 0) {
 			if(selectedPlace == 1) {
-				selectedPiece = boardPieces[selectionY][selectionX];
 				prevX = selectionX;
 				prevY = selectionY;
 
@@ -55,6 +54,32 @@ void playerTick(void) {
 
 				turn = AI;
 			}
+		}
+	}
+}
+
+void aiTick(void) {
+	s32 selectionX_ = randomRange(0, 2);
+	s32 selectionY_ = randomRange(0, 2);	
+	int selectedPlace = boardState[selectionY_][selectionX_];
+
+	if(aiState == 0) {
+		if(selectedPlace == 2) {
+			prevXai = selectionX_;
+			prevYai = selectionY_;
+
+			aiState = 1;
+		}
+	} else {
+		if(selectedPlace == 0) {
+			movePiece(selectionX_, selectionY_, prevXai, prevYai, 2);
+
+			aiState = 0;
+			toggleSelection(selectionB);
+			toggleSelection(selectionA);
+
+			moveObj(selectionB, 1, 0);
+			turn = PLAYER;
 		}
 	}
 }

@@ -5,6 +5,7 @@
 #include "interrupt.h"
 #include "gfx.h"
 #include "game.h"
+#include "rng.h"
 
 int main(void) {
 	loadGfx(); //Init graphics
@@ -19,6 +20,7 @@ int main(void) {
 	//Main loop
 	while(1) {
 		VBlankIntrWait();
+		random(); //Generate a new seed.
 
 		tick();
 	}

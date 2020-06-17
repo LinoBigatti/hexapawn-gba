@@ -1,0 +1,732 @@
+Archive member included to satisfy reference by file (symbol)
+
+./libAPIagb.a(obj_clear_all.c.o)
+                              build/gfx.c.o (obj_clear_all)
+./libAPIagb.a(key_defs.c.o)   build/interrupt.iwram.c.o (previous_key)
+./libAPIagb.a(bios.thumb.o)   build/main.c.o (VBlankIntrWait)
+/opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/libgcc.a(_muldi3.o)
+                              build/rng.c.o (__aeabi_lmul)
+/opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-init.o)
+                              /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/../../../../arm-none-eabi/lib/thumb/gba_crt0.o (__libc_init_array)
+/opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/../../../../arm-none-eabi/lib/thumb/libsysbase.a(malloc_vars.o)
+                              /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/../../../../arm-none-eabi/lib/thumb/gba_crt0.o (fake_heap_end)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crti.o
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crti.o
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crti.o
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crtbegin.o
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crtbegin.o
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crtbegin.o
+ .data.__dso_handle
+                0x0000000000000000        0x4 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crtbegin.o
+ .text          0x0000000000000000        0x0 build/gfx/playerA.c.o
+ .data          0x0000000000000000        0x0 build/gfx/playerA.c.o
+ .bss           0x0000000000000000        0x0 build/gfx/playerA.c.o
+ .text          0x0000000000000000        0x0 build/gfx/playerB.c.o
+ .data          0x0000000000000000        0x0 build/gfx/playerB.c.o
+ .bss           0x0000000000000000        0x0 build/gfx/playerB.c.o
+ .text          0x0000000000000000        0x0 build/gfx/selection.c.o
+ .data          0x0000000000000000        0x0 build/gfx/selection.c.o
+ .bss           0x0000000000000000        0x0 build/gfx/selection.c.o
+ .text          0x0000000000000000        0x0 build/gfx/bg.c.o
+ .data          0x0000000000000000        0x0 build/gfx/bg.c.o
+ .bss           0x0000000000000000        0x0 build/gfx/bg.c.o
+ .bss           0x0000000000000000        0x0 build/gfx.c.o
+ .text          0x0000000000000000        0x0 build/interrupt.iwram.c.o
+ .data          0x0000000000000000        0x0 build/interrupt.iwram.c.o
+ .bss           0x0000000000000000        0x0 build/interrupt.iwram.c.o
+ .bss           0x0000000000000000        0x0 build/rng.c.o
+ .text          0x0000000000000000        0x0 build/main.c.o
+ .data          0x0000000000000000        0x0 build/main.c.o
+ .bss           0x0000000000000000        0x0 build/main.c.o
+ .data          0x0000000000000000        0x0 ./libAPIagb.a(obj_clear_all.c.o)
+ .bss           0x0000000000000000        0x0 ./libAPIagb.a(obj_clear_all.c.o)
+ .text          0x0000000000000000        0x0 ./libAPIagb.a(key_defs.c.o)
+ .data          0x0000000000000000        0x0 ./libAPIagb.a(key_defs.c.o)
+ .data          0x0000000000000000        0x0 ./libAPIagb.a(bios.thumb.o)
+ .bss           0x0000000000000000        0x0 ./libAPIagb.a(bios.thumb.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/libgcc.a(_muldi3.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/libgcc.a(_muldi3.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/libgcc.a(_muldi3.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-init.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-init.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-init.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/../../../../arm-none-eabi/lib/thumb/libsysbase.a(malloc_vars.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/../../../../arm-none-eabi/lib/thumb/libsysbase.a(malloc_vars.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/../../../../arm-none-eabi/lib/thumb/libsysbase.a(malloc_vars.o)
+ .bss.fake_heap_start
+                0x0000000000000000        0x4 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/../../../../arm-none-eabi/lib/thumb/libsysbase.a(malloc_vars.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crtend.o
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crtend.o
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crtend.o
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crtn.o
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crtn.o
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x0000000008000000 0x0000000002000000
+iwram            0x0000000003000000 0x0000000000008000
+ewram            0x0000000002000000 0x0000000000040000
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x0000000008000000                __text_start = ORIGIN (rom)
+                0x0000000002040000                __eheap_end = (ORIGIN (ewram) + LENGTH (ewram))
+                0x0000000003000000                __iwram_start = ORIGIN (iwram)
+                0x0000000003008000                __iwram_top = (ORIGIN (iwram) + LENGTH (iwram))
+                0x0000000003007fa0                __sp_irq = (__iwram_top - 0x60)
+                0x0000000003007f00                __sp_usr = (__sp_irq - 0xa0)
+                0x0000000003007ff8                __irq_flags = 0x3007ff8
+                0x0000000008000000                . = __text_start
+
+.crt0           0x0000000008000000      0x210
+ *(.crt0)
+ .crt0          0x0000000008000000      0x210 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
+                0x0000000008000000                _start
+                0x00000000080000c4                __boot_method
+                0x00000000080000c5                __slave_number
+                0x00000000080000e0                start_vector
+                0x0000000008000210                . = ALIGN (0x4)
+
+.init           0x0000000008000210        0xc
+ *(SORT_NONE(.init))
+ .init          0x0000000008000210        0x4 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crti.o
+                0x0000000008000210                _init
+ .init          0x0000000008000214        0x8 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crtn.o
+
+.plt            0x000000000800021c        0x0
+ *(.plt)
+                0x000000000800021c                . = ALIGN (0x4)
+
+.text           0x000000000800021c      0x69c
+ *(EXCLUDE_FILE(*.iwram*) .text*)
+ .text.deregister_tm_clones
+                0x000000000800021c       0x2c /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crtbegin.o
+ .text.register_tm_clones
+                0x0000000008000248       0x34 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crtbegin.o
+ .text.__do_global_dtors_aux
+                0x000000000800027c       0x30 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crtbegin.o
+ .text.frame_dummy
+                0x00000000080002ac       0x28 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crtbegin.o
+ .text          0x00000000080002d4      0x128 build/gfx.c.o
+                0x00000000080002d4                loadGfx
+                0x00000000080003c8                loadPiece
+ .text          0x00000000080003fc       0xac build/board.c.o
+                0x00000000080003fc                moveObj
+                0x0000000008000424                movePiece
+                0x0000000008000478                setupBoard
+ .text          0x00000000080004a8      0x1cc build/game.c.o
+                0x00000000080004a8                playerTick
+                0x00000000080005c0                aiTick
+                0x0000000008000654                tick
+ .text          0x0000000008000674       0x80 build/rng.c.o
+                0x0000000008000674                randomSeed
+                0x0000000008000680                random
+                0x00000000080006b4                randomRange
+ .text.startup  0x00000000080006f4       0x48 build/main.c.o
+                0x00000000080006f4                main
+ .text          0x000000000800073c       0x2c ./libAPIagb.a(obj_clear_all.c.o)
+                0x000000000800073c                obj_clear_all
+ .text          0x0000000008000768       0xac ./libAPIagb.a(bios.thumb.o)
+                0x0000000008000768                SoftReset
+                0x000000000800076c                RegisterRamReset
+                0x0000000008000770                Halt
+                0x0000000008000774                Stop
+                0x0000000008000778                IntrWait
+                0x000000000800077c                VBlankIntrWait
+                0x0000000008000780                Div
+                0x0000000008000784                DivArm
+                0x0000000008000788                Sqrt
+                0x000000000800078c                ArcTan
+                0x0000000008000790                ArcTan2
+                0x0000000008000794                CpuSet
+                0x0000000008000798                CpuFastSet
+                0x000000000800079c                BiosChecksum
+                0x00000000080007a0                BgAffineSet
+                0x00000000080007a4                ObjAffineSet
+                0x00000000080007a8                BitUnPack
+                0x00000000080007ac                LZ77UnCompWRAM
+                0x00000000080007b0                LZ77UnCompVRAM
+                0x00000000080007b4                HuffUnComp
+                0x00000000080007b8                RLUnCompWRAM
+                0x00000000080007bc                RLUnCompVRAM
+                0x00000000080007c0                Diff8bitUnFilterWRAM
+                0x00000000080007c4                Diff8bitUnFilterVRAM
+                0x00000000080007c8                Diff16bitUnFilter
+                0x00000000080007cc                SoundBias
+                0x00000000080007d0                SoundDriverInit
+                0x00000000080007d4                SoundDriverMode
+                0x00000000080007d8                SoundDriverMain
+                0x00000000080007dc                SoundDriverVSync
+                0x00000000080007e0                SoundChannelClear
+                0x00000000080007e4                MIDIKey2Freq
+                0x00000000080007e8                MusicPlayerOpen
+                0x00000000080007ec                MusicPlayerStart
+                0x00000000080007f0                MusicPlayerStop
+                0x00000000080007f4                MusicPlayerContinue
+                0x00000000080007f8                MusicPlayerFadeOut
+                0x00000000080007fc                MultiBoot
+                0x0000000008000800                HardReset
+                0x0000000008000804                CustomHalt
+                0x0000000008000808                SoundDriverVSyncOff
+                0x000000000800080c                SoundDriverVSyncOn
+                0x0000000008000810                GetJumpList
+ .text.__muldi3
+                0x0000000008000814       0x54 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/libgcc.a(_muldi3.o)
+                0x0000000008000814                __aeabi_lmul
+                0x0000000008000814                __muldi3
+ .text.__libc_init_array
+                0x0000000008000868       0x50 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-init.o)
+                0x0000000008000868                __libc_init_array
+ *(.gnu.linkonce.t.*)
+ *(.text.*personality*)
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x00000000080008b8        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000080008b8        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x00000000080008b8        0x0 linker stubs
+                0x00000000080008b8                . = ALIGN (0x4)
+                0x00000000080008b8                __text_end = .
+
+.v4_bx          0x00000000080008b8        0x0
+ .v4_bx         0x00000000080008b8        0x0 linker stubs
+
+.iplt           0x00000000080008b8        0x0
+ .iplt          0x00000000080008b8        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
+
+.fini           0x00000000080008b8        0xc
+ *(.fini)
+ .fini          0x00000000080008b8        0x4 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crti.o
+                0x00000000080008b8                _fini
+ .fini          0x00000000080008bc        0x8 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crtn.o
+                0x00000000080008c4                . = ALIGN (0x4)
+
+.rodata         0x00000000080008c4      0x4d8
+ *(.rodata)
+ .rodata        0x00000000080008c4       0xc0 build/gfx/playerA.c.o
+                0x00000000080008c4                playerAPal
+                0x00000000080008d8                playerATiles
+ .rodata        0x0000000008000984       0xc0 build/gfx/playerB.c.o
+                0x0000000008000984                playerBPal
+                0x0000000008000998                playerBTiles
+ .rodata        0x0000000008000a44       0x70 build/gfx/selection.c.o
+                0x0000000008000a44                selectionPal
+                0x0000000008000a64                selectionTiles
+ .rodata        0x0000000008000ab4      0x2e8 build/gfx/bg.c.o
+                0x0000000008000ab4                bgPal
+                0x0000000008000c30                bgMap
+                0x0000000008000d50                bgTiles
+ *all.rodata*(*)
+ *(.roda)
+ *(.rodata.*)
+ *(.gnu.linkonce.r*)
+                0x0000000008000d9c                . = ALIGN (0x4)
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x0000000008000d9c                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x0000000008000d9c                __exidx_end = .
+
+.ctors          0x0000000008000d9c        0x0
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+                0x0000000008000d9c                . = ALIGN (0x4)
+
+.dtors          0x0000000008000d9c        0x0
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+                0x0000000008000d9c                . = ALIGN (0x4)
+
+.eh_frame       0x0000000008000d9c        0x4
+ *(.eh_frame)
+ .eh_frame      0x0000000008000d9c        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crtbegin.o
+ .eh_frame      0x0000000008000d9c        0x4 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crtend.o
+                0x0000000008000da0                . = ALIGN (0x4)
+
+.gcc_except_table
+                0x0000000008000da0        0x0
+ *(.gcc_except_table)
+                0x0000000008000da0                . = ALIGN (0x4)
+                0x0000000008000da0                __iwram_lma = .
+
+.iwram          0x0000000003000000       0x68 load address 0x0000000008000da0
+                0x0000000003000000                __iwram_start__ = ABSOLUTE (.)
+ *(.iwram .iwram*)
+ .iwram         0x0000000003000000       0x68 build/interrupt.iwram.c.o
+                0x0000000003000000                interrupt
+ *iwram.*(.text* .data*)
+                0x0000000003000068                . = ALIGN (0x4)
+                0x0000000003000068                __iwram_end__ = ABSOLUTE (.)
+                0x0000000008000e08                __data_lma = (__iwram_lma + SIZEOF (.iwram))
+
+.rel.dyn        0x0000000003000068        0x0 load address 0x0000000008000e08
+ .rel.iplt      0x0000000003000068        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
+
+.bss            0x0000000003000068       0x54
+                0x0000000003000068                __bss_start = ABSOLUTE (.)
+                0x0000000003000068                __bss_start__ = ABSOLUTE (.)
+ *(.dynbss)
+ *(.gnu.linkonce.b*)
+ *(.bss*)
+ .bss.completed.1
+                0x0000000003000068        0x1 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crtbegin.o
+ *fill*         0x0000000003000069        0x3 
+ .bss.object.0  0x000000000300006c       0x18 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crtbegin.o
+ .bss           0x0000000003000084       0x24 build/board.c.o
+                0x0000000003000084                boardPieces
+ .bss           0x00000000030000a8        0xc build/game.c.o
+                0x00000000030000a8                playerState
+                0x00000000030000ac                turn
+                0x00000000030000b0                aiState
+ .bss           0x00000000030000b4        0x4 ./libAPIagb.a(key_defs.c.o)
+                0x00000000030000b4                previous_key
+                0x00000000030000b6                current_key
+ .bss.fake_heap_end
+                0x00000000030000b8        0x4 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/../../../../arm-none-eabi/lib/thumb/libsysbase.a(malloc_vars.o)
+                0x00000000030000b8                fake_heap_end
+ *(COMMON)
+                0x00000000030000bc                . = ALIGN (0x4)
+                0x00000000030000bc                __bss_end__ = ABSOLUTE (.)
+
+.data           0x00000000030000bc       0x54 load address 0x0000000008000e08
+                0x00000000030000bc                __data_start__ = ABSOLUTE (.)
+ *(.data*)
+ .data          0x00000000030000bc       0x10 build/gfx.c.o
+                0x00000000030000bc                selectionA
+                0x00000000030000c0                selectionB
+                0x00000000030000c4                playerA
+                0x00000000030000c8                playerB
+ .data          0x00000000030000cc       0x24 build/board.c.o
+                0x00000000030000cc                boardState
+ .data          0x00000000030000f0       0x18 build/game.c.o
+                0x00000000030000f0                selectionY
+                0x00000000030000f4                selectionX
+                0x00000000030000f8                prevX
+                0x00000000030000fc                prevY
+                0x0000000003000100                prevXai
+                0x0000000003000104                prevYai
+ .data          0x0000000003000108        0x8 build/rng.c.o
+                0x0000000003000108                seed
+ *(.gnu.linkonce.d*)
+                0x0000000003000110                . = ALIGN (0x4)
+                0x0000000008000e5c                __preinit_lma = (__data_lma + SIZEOF (.data))
+
+.igot.plt       0x0000000003000110        0x0 load address 0x0000000008000e5c
+ .igot.plt      0x0000000003000110        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
+
+.tm_clone_table
+                0x0000000003000110        0x0 load address 0x0000000008000e5c
+ .tm_clone_table
+                0x0000000003000110        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crtbegin.o
+ .tm_clone_table
+                0x0000000003000110        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crtend.o
+
+.preinit_array  0x0000000003000110        0x0 load address 0x0000000008000e5c
+                0x0000000003000110                __preinit_array_start = ABSOLUTE (.)
+ *(.preinit_array)
+                0x0000000003000110                __preinit_array_end = ABSOLUTE (.)
+                0x0000000008000e5c                __init_lma = (__preinit_lma + SIZEOF (.preinit_array))
+
+.init_array     0x0000000003000110        0x4 load address 0x0000000008000e5c
+                0x0000000003000110                __init_array_start = ABSOLUTE (.)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+ .init_array    0x0000000003000110        0x4 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crtbegin.o
+                0x0000000003000114                __init_array_end = ABSOLUTE (.)
+                0x0000000008000e60                __fini_lma = (__init_lma + SIZEOF (.init_array))
+
+.fini_array     0x0000000003000114        0x4 load address 0x0000000008000e60
+                0x0000000003000114                __fini_array_start = ABSOLUTE (.)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array)
+ .fini_array    0x0000000003000114        0x4 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crtbegin.o
+                0x0000000003000118                __fini_array_end = ABSOLUTE (.)
+                0x0000000008000e64                __jcr_lma = (__fini_lma + SIZEOF (.fini_array))
+
+.jcr            0x0000000003000118        0x0 load address 0x0000000008000e64
+ *(.jcr)
+                0x0000000003000118                __data_end__ = ABSOLUTE (.)
+                0x0000000008000e64                __iwram_overlay_lma = (__jcr_lma + SIZEOF (.jcr))
+                0x0000000003000118                __iwram_overlay_start = .
+
+.iwram0         0x0000000003000118        0x0 load address 0x0000000008000e64
+ *(.iwram0)
+                0x0000000003000118                . = ALIGN (0x4)
+                0x0000000008000e64                PROVIDE (__load_start_iwram0 = LOADADDR (.iwram0))
+                0x0000000008000e64                PROVIDE (__load_stop_iwram0 = (LOADADDR (.iwram0) + SIZEOF (.iwram0)))
+
+.iwram1         0x0000000003000118        0x0
+ *(.iwram1)
+                0x0000000003000118                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__load_start_iwram1 = LOADADDR (.iwram1))
+                [!provide]                        PROVIDE (__load_stop_iwram1 = (LOADADDR (.iwram1) + SIZEOF (.iwram1)))
+
+.iwram2         0x0000000003000118        0x0
+ *(.iwram2)
+                0x0000000003000118                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__load_start_iwram2 = LOADADDR (.iwram2))
+                [!provide]                        PROVIDE (__load_stop_iwram2 = (LOADADDR (.iwram2) + SIZEOF (.iwram2)))
+
+.iwram3         0x0000000003000118        0x0
+ *(.iwram3)
+                0x0000000003000118                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__load_start_iwram3 = LOADADDR (.iwram3))
+                [!provide]                        PROVIDE (__load_stop_iwram3 = (LOADADDR (.iwram3) + SIZEOF (.iwram3)))
+
+.iwram4         0x0000000003000118        0x0
+ *(.iwram4)
+                0x0000000003000118                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__load_start_iwram4 = LOADADDR (.iwram4))
+                [!provide]                        PROVIDE (__load_stop_iwram4 = (LOADADDR (.iwram4) + SIZEOF (.iwram4)))
+
+.iwram5         0x0000000003000118        0x0
+ *(.iwram5)
+                0x0000000003000118                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__load_start_iwram5 = LOADADDR (.iwram5))
+                [!provide]                        PROVIDE (__load_stop_iwram5 = (LOADADDR (.iwram5) + SIZEOF (.iwram5)))
+
+.iwram6         0x0000000003000118        0x0
+ *(.iwram6)
+                0x0000000003000118                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__load_start_iwram6 = LOADADDR (.iwram6))
+                [!provide]                        PROVIDE (__load_stop_iwram6 = (LOADADDR (.iwram6) + SIZEOF (.iwram6)))
+
+.iwram7         0x0000000003000118        0x0
+ *(.iwram7)
+                0x0000000003000118                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__load_start_iwram7 = LOADADDR (.iwram7))
+                [!provide]                        PROVIDE (__load_stop_iwram7 = (LOADADDR (.iwram7) + SIZEOF (.iwram7)))
+
+.iwram8         0x0000000003000118        0x0
+ *(.iwram8)
+                0x0000000003000118                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__load_start_iwram8 = LOADADDR (.iwram8))
+                [!provide]                        PROVIDE (__load_stop_iwram8 = (LOADADDR (.iwram8) + SIZEOF (.iwram8)))
+
+.iwram9         0x0000000003000118        0x0
+ *(.iwram9)
+                0x0000000003000118                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__load_start_iwram9 = LOADADDR (.iwram9))
+                [!provide]                        PROVIDE (__load_stop_iwram9 = (LOADADDR (.iwram9) + SIZEOF (.iwram9)))
+                0x0000000003000118                __iwram_overlay_end = .
+                0x0000000008000e64                __ewram_lma = (__iwram_overlay_lma + (__iwram_overlay_end - __iwram_overlay_start))
+                0x0000000003000118                __iheap_start = .
+                0x0000000002000000                __ewram_start = ORIGIN (ewram)
+
+.ewram          0x0000000002000000        0x0 load address 0x0000000008000e64
+ *(.ewram*)
+                0x0000000002000000                . = ALIGN (0x4)
+                0x0000000002000000                __ewram_end = ABSOLUTE (.)
+                0x0000000008000e64                __pad_lma = (__ewram_lma + SIZEOF (.ewram))
+
+.sbss           0x0000000002000000        0x0
+                0x0000000002000000                __sbss_start__ = ABSOLUTE (.)
+ *(.sbss*)
+                0x0000000002000000                . = ALIGN (0x4)
+                0x0000000002000000                __sbss_end__ = ABSOLUTE (.)
+                0x0000000002000000                __end__ = ABSOLUTE (.)
+                0x0000000002000000                __eheap_start = ABSOLUTE (.)
+
+.pad            0x0000000002000000        0x8 load address 0x0000000008000e64
+                0x0000000002000000        0x4 LONG 0x52416b64
+                0x0000000002000004        0x4 LONG 0x4d
+                0x0000000002000008                . = ALIGN (0x4)
+                0x0000000008000e6c                __rom_end__ = (__pad_lma + SIZEOF (.pad))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x23
+ *(.comment)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crtbegin.o
+                                         0x24 (size before relaxing)
+ .comment       0x0000000000000023       0x24 build/gfx/playerA.c.o
+ .comment       0x0000000000000023       0x24 build/gfx/playerB.c.o
+ .comment       0x0000000000000023       0x24 build/gfx/selection.c.o
+ .comment       0x0000000000000023       0x24 build/gfx/bg.c.o
+ .comment       0x0000000000000023       0x24 build/gfx.c.o
+ .comment       0x0000000000000023       0x24 build/interrupt.iwram.c.o
+ .comment       0x0000000000000023       0x24 build/board.c.o
+ .comment       0x0000000000000023       0x24 build/game.c.o
+ .comment       0x0000000000000023       0x24 build/rng.c.o
+ .comment       0x0000000000000023       0x24 build/main.c.o
+ .comment       0x0000000000000023       0x24 ./libAPIagb.a(obj_clear_all.c.o)
+ .comment       0x0000000000000023       0x24 ./libAPIagb.a(key_defs.c.o)
+ .comment       0x0000000000000023       0x24 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/libgcc.a(_muldi3.o)
+ .comment       0x0000000000000023       0x24 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-init.o)
+ .comment       0x0000000000000023       0x24 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/../../../../arm-none-eabi/lib/thumb/libsysbase.a(malloc_vars.o)
+ .comment       0x0000000000000023       0x24 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crtend.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x178
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x18 build/gfx/playerA.c.o
+ .debug_aranges
+                0x0000000000000018       0x18 build/gfx/playerB.c.o
+ .debug_aranges
+                0x0000000000000030       0x18 build/gfx/selection.c.o
+ .debug_aranges
+                0x0000000000000048       0x18 build/gfx/bg.c.o
+ .debug_aranges
+                0x0000000000000060       0x20 build/gfx.c.o
+ .debug_aranges
+                0x0000000000000080       0x20 build/interrupt.iwram.c.o
+ .debug_aranges
+                0x00000000000000a0       0x20 build/board.c.o
+ .debug_aranges
+                0x00000000000000c0       0x20 build/game.c.o
+ .debug_aranges
+                0x00000000000000e0       0x20 build/rng.c.o
+ .debug_aranges
+                0x0000000000000100       0x20 build/main.c.o
+ .debug_aranges
+                0x0000000000000120       0x20 ./libAPIagb.a(obj_clear_all.c.o)
+ .debug_aranges
+                0x0000000000000140       0x18 ./libAPIagb.a(key_defs.c.o)
+ .debug_aranges
+                0x0000000000000158       0x20 ./libAPIagb.a(bios.thumb.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x1c1a
+ *(.debug_info)
+ .debug_info    0x0000000000000000       0x81 build/gfx/playerA.c.o
+ .debug_info    0x0000000000000081       0x81 build/gfx/playerB.c.o
+ .debug_info    0x0000000000000102       0x8d build/gfx/selection.c.o
+ .debug_info    0x000000000000018f       0xab build/gfx/bg.c.o
+ .debug_info    0x000000000000023a      0xabe build/gfx.c.o
+ .debug_info    0x0000000000000cf8       0xf6 build/interrupt.iwram.c.o
+ .debug_info    0x0000000000000dee      0x35e build/board.c.o
+ .debug_info    0x000000000000114c      0x671 build/game.c.o
+ .debug_info    0x00000000000017bd      0x169 build/rng.c.o
+ .debug_info    0x0000000000001926      0x120 build/main.c.o
+ .debug_info    0x0000000000001a46      0x10a ./libAPIagb.a(obj_clear_all.c.o)
+ .debug_info    0x0000000000001b50       0xa4 ./libAPIagb.a(key_defs.c.o)
+ .debug_info    0x0000000000001bf4       0x26 ./libAPIagb.a(bios.thumb.o)
+
+.debug_abbrev   0x0000000000000000      0xacd
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x4a build/gfx/playerA.c.o
+ .debug_abbrev  0x000000000000004a       0x4a build/gfx/playerB.c.o
+ .debug_abbrev  0x0000000000000094       0x4a build/gfx/selection.c.o
+ .debug_abbrev  0x00000000000000de       0x53 build/gfx/bg.c.o
+ .debug_abbrev  0x0000000000000131      0x213 build/gfx.c.o
+ .debug_abbrev  0x0000000000000344       0xb9 build/interrupt.iwram.c.o
+ .debug_abbrev  0x00000000000003fd      0x217 build/board.c.o
+ .debug_abbrev  0x0000000000000614      0x1e5 build/game.c.o
+ .debug_abbrev  0x00000000000007f9      0x10d build/rng.c.o
+ .debug_abbrev  0x0000000000000906       0x9b build/main.c.o
+ .debug_abbrev  0x00000000000009a1       0xc1 ./libAPIagb.a(obj_clear_all.c.o)
+ .debug_abbrev  0x0000000000000a62       0x57 ./libAPIagb.a(key_defs.c.o)
+ .debug_abbrev  0x0000000000000ab9       0x14 ./libAPIagb.a(bios.thumb.o)
+
+.debug_line     0x0000000000000000     0x1154
+ *(.debug_line)
+ .debug_line    0x0000000000000000       0x32 build/gfx/playerA.c.o
+ .debug_line    0x0000000000000032       0x32 build/gfx/playerB.c.o
+ .debug_line    0x0000000000000064       0x34 build/gfx/selection.c.o
+ .debug_line    0x0000000000000098       0x2d build/gfx/bg.c.o
+ .debug_line    0x00000000000000c5      0x558 build/gfx.c.o
+ .debug_line    0x000000000000061d       0xf5 build/interrupt.iwram.c.o
+ .debug_line    0x0000000000000712      0x1f2 build/board.c.o
+ .debug_line    0x0000000000000904      0x4a8 build/game.c.o
+ .debug_line    0x0000000000000dac       0xd8 build/rng.c.o
+ .debug_line    0x0000000000000e84       0xe8 build/main.c.o
+ .debug_line    0x0000000000000f6c       0xd7 ./libAPIagb.a(obj_clear_all.c.o)
+ .debug_line    0x0000000000001043       0x74 ./libAPIagb.a(key_defs.c.o)
+ .debug_line    0x00000000000010b7       0x9d ./libAPIagb.a(bios.thumb.o)
+
+.debug_frame    0x0000000000000000      0x1d0
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x40 build/gfx.c.o
+ .debug_frame   0x0000000000000040       0x20 build/interrupt.iwram.c.o
+ .debug_frame   0x0000000000000060       0x58 build/board.c.o
+ .debug_frame   0x00000000000000b8       0x70 build/game.c.o
+ .debug_frame   0x0000000000000128       0x54 build/rng.c.o
+ .debug_frame   0x000000000000017c       0x28 build/main.c.o
+ .debug_frame   0x00000000000001a4       0x2c ./libAPIagb.a(obj_clear_all.c.o)
+
+.debug_str      0x0000000000000000      0x600
+ *(.debug_str)
+ .debug_str     0x0000000000000000       0xd2 build/gfx/playerA.c.o
+                                         0xdf (size before relaxing)
+ .debug_str     0x00000000000000d2       0x2a build/gfx/playerB.c.o
+                                         0xdf (size before relaxing)
+ .debug_str     0x00000000000000fc       0x43 build/gfx/selection.c.o
+                                         0xf8 (size before relaxing)
+ .debug_str     0x000000000000013f       0x21 build/gfx/bg.c.o
+                                         0xd6 (size before relaxing)
+ .debug_str     0x0000000000000160      0x1e7 build/gfx.c.o
+                                        0x330 (size before relaxing)
+ .debug_str     0x0000000000000347       0xb6 build/interrupt.iwram.c.o
+                                        0x156 (size before relaxing)
+ .debug_str     0x00000000000003fd       0x56 build/board.c.o
+                                        0x1b3 (size before relaxing)
+ .debug_str     0x0000000000000453       0xd5 build/game.c.o
+                                        0x270 (size before relaxing)
+ .debug_str     0x0000000000000528       0x3d build/rng.c.o
+                                        0x167 (size before relaxing)
+ .debug_str     0x0000000000000565       0x25 build/main.c.o
+                                        0x167 (size before relaxing)
+ .debug_str     0x000000000000058a       0x39 ./libAPIagb.a(obj_clear_all.c.o)
+                                        0x16a (size before relaxing)
+ .debug_str     0x00000000000005c3       0x18 ./libAPIagb.a(key_defs.c.o)
+                                        0x149 (size before relaxing)
+ .debug_str     0x00000000000005db       0x25 ./libAPIagb.a(bios.thumb.o)
+                                         0x3b (size before relaxing)
+
+.debug_loc      0x0000000000000000      0x9af
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x453 build/gfx.c.o
+ .debug_loc     0x0000000000000453       0x1b build/interrupt.iwram.c.o
+ .debug_loc     0x000000000000046e      0x1c7 build/board.c.o
+ .debug_loc     0x0000000000000635      0x2e4 build/game.c.o
+ .debug_loc     0x0000000000000919       0x64 build/rng.c.o
+ .debug_loc     0x000000000000097d       0x32 ./libAPIagb.a(obj_clear_all.c.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.stack          0x0000000000080000        0x0
+                0x0000000000080000                _stack = .
+ *(.stack)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+.ARM.attributes
+                0x0000000000000000       0x2c
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x0000000000000000       0x20 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
+ .ARM.attributes
+                0x0000000000000020       0x1c /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crti.o
+ .ARM.attributes
+                0x000000000000003c       0x2a /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crtbegin.o
+ .ARM.attributes
+                0x0000000000000066       0x2c build/gfx/playerA.c.o
+ .ARM.attributes
+                0x0000000000000092       0x2c build/gfx/playerB.c.o
+ .ARM.attributes
+                0x00000000000000be       0x2c build/gfx/selection.c.o
+ .ARM.attributes
+                0x00000000000000ea       0x2c build/gfx/bg.c.o
+ .ARM.attributes
+                0x0000000000000116       0x26 build/gfx.c.o
+ .ARM.attributes
+                0x000000000000013c       0x2a build/interrupt.iwram.c.o
+ .ARM.attributes
+                0x0000000000000166       0x26 build/board.c.o
+ .ARM.attributes
+                0x000000000000018c       0x26 build/game.c.o
+ .ARM.attributes
+                0x00000000000001b2       0x26 build/rng.c.o
+ .ARM.attributes
+                0x00000000000001d8       0x26 build/main.c.o
+ .ARM.attributes
+                0x00000000000001fe       0x26 ./libAPIagb.a(obj_clear_all.c.o)
+ .ARM.attributes
+                0x0000000000000224       0x2c ./libAPIagb.a(key_defs.c.o)
+ .ARM.attributes
+                0x0000000000000250       0x14 ./libAPIagb.a(bios.thumb.o)
+ .ARM.attributes
+                0x0000000000000264       0x2a /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/libgcc.a(_muldi3.o)
+ .ARM.attributes
+                0x000000000000028e       0x2a /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/../../../../arm-none-eabi/lib/thumb/libg.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000000000002b8       0x30 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/../../../../arm-none-eabi/lib/thumb/libsysbase.a(malloc_vars.o)
+ .ARM.attributes
+                0x00000000000002e8       0x30 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crtend.o
+ .ARM.attributes
+                0x0000000000000318       0x1c /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crtn.o
+
+/DISCARD/
+ *(.note.GNU-stack)
+LOAD /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/../../../../arm-none-eabi/lib/thumb/gba_crt0.o
+LOAD /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crti.o
+LOAD /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crtbegin.o
+LOAD build/gfx/playerA.c.o
+LOAD build/gfx/playerB.c.o
+LOAD build/gfx/selection.c.o
+LOAD build/gfx/bg.c.o
+LOAD build/gfx.c.o
+LOAD build/interrupt.iwram.c.o
+LOAD build/board.c.o
+LOAD build/game.c.o
+LOAD build/rng.c.o
+LOAD build/main.c.o
+LOAD ./libAPIagb.a
+START GROUP
+LOAD /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/libgcc.a
+LOAD /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/../../../../arm-none-eabi/lib/thumb/libg.a
+LOAD /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/../../../../arm-none-eabi/lib/thumb/libc.a
+LOAD /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/../../../../arm-none-eabi/lib/thumb/libsysbase.a
+END GROUP
+LOAD /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crtend.o
+LOAD /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/10.1.0/thumb/crtn.o
+OUTPUT(build/hexapawn.elf elf32-littlearm)
+
+.debug_ranges   0x0000000000000000      0x4d0
+ .debug_ranges  0x0000000000000000      0x238 build/gfx.c.o
+ .debug_ranges  0x0000000000000238       0x10 build/interrupt.iwram.c.o
+ .debug_ranges  0x0000000000000248       0x80 build/board.c.o
+ .debug_ranges  0x00000000000002c8      0x1d0 build/game.c.o
+ .debug_ranges  0x0000000000000498       0x28 build/rng.c.o
+ .debug_ranges  0x00000000000004c0       0x10 build/main.c.o

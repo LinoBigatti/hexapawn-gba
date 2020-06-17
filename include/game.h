@@ -7,6 +7,7 @@
 
 #include "board.h"
 #include "gfx.h"
+#include "rng.h"
 
 #define PLAYER 0
 #define AI 1
@@ -18,5 +19,6 @@ extern int selectionY;
 extern void tick(void);
 
 extern void playerTick(void);
+extern void aiTick(void);
 
 #endif
