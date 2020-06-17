@@ -3,14 +3,10 @@
 
 #include <basics/types.h>
 
-typedef struct movement_ {
-	u32 startX, startY;
-	u32 endX, endY;
-} movement;
+#include "board.h"
+#include "rng.h"
+#include "game.h"
 
-typedef struct state_ {
-	int board[3][3];
-	movement moves[3];
-} state;
+extern void aiTick(void);
 
 #endif
