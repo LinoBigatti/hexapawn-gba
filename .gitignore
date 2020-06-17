@@ -1,0 +1,10 @@
+#Ignore some files
+
+build/*
+!build/.nodelete
+include/gfx/*
+!include/gfx/.nodelete
+src/gfx/*
+!src/gfx/.nodelete
+*.gba
+*.map
