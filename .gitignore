@@ -7,3 +7,5 @@ src/gfx/*.c
 
 *.gba
 *.map
+
+*.sav
