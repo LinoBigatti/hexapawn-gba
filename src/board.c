@@ -20,6 +20,10 @@ void movePiece(u32 x, u32 y, u32 xPrev, u32 yPrev, u32 type) {
 	obj_attributes *obj = boardPieces[yPrev][xPrev];
 	moveObj(obj, x, y);
 
+	if(boardPieces[y][x] != 0) {
+		toggleSelection(boardPieces[y][x]);
+	}
+
 	boardPieces[yPrev][xPrev] = 0;
 	boardState[yPrev][xPrev] = 0;
 	boardPieces[y][x] = obj;
