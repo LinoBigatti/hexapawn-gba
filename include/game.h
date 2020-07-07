@@ -7,6 +7,7 @@
 
 #include "board.h"
 #include "gfx.h"
+#include "ai.h"
 
 #define PLAYER 0
 #define AI 1

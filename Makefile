@@ -59,11 +59,20 @@ endif
 
 #Compiler options.
 
+DEBUG ?= 
+
 ARCH = -mthumb -mthumb-interwork
-CFLAGS := -g -Wall -O2 -mcpu=arm7tdmi -mtune=arm7tdmi -fomit-frame-pointer -ffast-math $(ARCH)
-CARMFLAGS := -g -Wall -O2 -mcpu=arm7tdmi -mtune=arm7tdmi -mthumb-interwork -marm -mlong-calls
+CFLAGS := -g -Wall -mcpu=arm7tdmi -mtune=arm7tdmi -fomit-frame-pointer -ffast-math $(ARCH)
+CARMFLAGS := -g -Wall -mcpu=arm7tdmi -mtune=arm7tdmi -mthumb-interwork -marm -mlong-calls
 CFLAGS  += $(INCLUDE)
 CARMFLAGS  += $(INCLUDE)
+ifdef DEBUG
+CFLAGS += -DDEBUG=1 -O0
+CARMFLAGS += -DDEBUG=1 -O0
+else
+CFLAGS += -O2
+CARMFLAGS += -O2
+endif
 CXXFLAGS := $(CFLAGS) -fno-rtti -fno-exceptions
 ASFLAGS := -g $(ARCH)
 LDFLAGS = -g $(ARCH) -Wl,-Map,$(TARGET).map --entry $(START) -specs=$(SPECS).specs -lAPIagb -L.

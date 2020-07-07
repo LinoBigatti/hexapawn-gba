@@ -48,11 +48,12 @@ class move:
     def __str__(self):
         string = ""
         string +=   "state option" + str(self.id) + " = {\n"\
-                        + "\t.board = " + str(self.board).replace('[', '{').replace(']', '}') + ",\n"\
+                        + "\t.board = " + str(self.board).replace('[', '{').replace(']', '}').replace("'", '') + ",\n"\
                         + "\t.moves = {\n"
 
         for move in self.moves:
             string +=   "\t\t{\n"\
+                            "\t\t\t.valid = 1,\n"\
                             "\t\t\t.startX = " + str(move[0]) + ",\n"\
                             "\t\t\t.startY = " + str(move[1]) + ",\n"\
                             "\t\t\t.endX = " + str(move[2]) + ",\n"\
@@ -60,7 +61,7 @@ class move:
                         "\t\t},\n"
 
         if 4 - len(self.moves) != 0:
-            string += "\t\t{},\n" * (4 - len(self.moves))
+            string += "\t\t{.valid=0},\n" * (4 - len(self.moves))
         string = string[:-2] + "\n\t}\n};"
 
         #string += "\nturn: " + str(self.turn)
@@ -71,11 +72,11 @@ def getCoords(moves):
     for i in range(3):
         for j in range(3):
             if moves[i][j] == '1':
-                startX = i
-                startY = j
+                startX = j
+                startY = i
             elif moves[i][j] == '2':
-                endX = i
-                endY = j
+                endX = j
+                endY = i
     return [startX, startY, endX, endY]
 
 moves = []
@@ -115,5 +116,5 @@ cFile = "#include \"ai.h\"\n\n"
 for move in moves:
     cFile += str(move) + "\n\n"
 
-with open("src/ai.c", "w") as f:
+with open("src/aiMoves.c", "w") as f:
     f.write(cFile[:-2])

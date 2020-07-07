@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+
+mgba -g hexapawn.gba &
+arm-none-eabi-gdb build/hexapawn.elf --eval-command="target remote 0.0.0.0:2345"

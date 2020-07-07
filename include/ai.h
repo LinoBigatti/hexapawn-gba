@@ -6,6 +6,7 @@
 #include "board.h"
 #include "rng.h"
 #include "game.h"
+#include "aiMoves.h"
 
 extern void aiTick(void);
 

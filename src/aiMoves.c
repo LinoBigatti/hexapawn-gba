@@ -1,81 +1,91 @@
-#include "aiMoves.h"
+#include "ai.h"
 
 state option0 = {
-	.board = {{'2', '2', '2'}, {'1', '0', '0'}, {'0', '1', '1'}},
+	.board = {{2, 2, 2}, {1, 0, 0}, {0, 1, 1}},
 	.moves = {
 		{
-			.startX = 0,
-			.startY = 1,
-			.endX = 1,
-			.endY = 0,
+			.valid = 1,
+			.startX = 1,
+			.startY = 0,
+			.endX = 0,
+			.endY = 1,
 		},
 		{
-			.startX = 0,
-			.startY = 1,
+			.valid = 1,
+			.startX = 1,
+			.startY = 0,
 			.endX = 1,
 			.endY = 1,
 		},
 		{
-			.startX = 0,
-			.startY = 2,
-			.endX = 1,
-			.endY = 2,
+			.valid = 1,
+			.startX = 2,
+			.startY = 0,
+			.endX = 2,
+			.endY = 1,
 		},
-		{}
+		{.valid=0}
 	}
 };
 
 state option1 = {
-	.board = {{'2', '2', '2'}, {'0', '0', '1'}, {'1', '1', '0'}},
+	.board = {{2, 2, 2}, {0, 0, 1}, {1, 1, 0}},
 	.moves = {
 		{
-			.startX = 2,
-			.startY = 1,
-			.endX = 1,
-			.endY = 0,
+			.valid = 1,
+			.startX = 1,
+			.startY = 0,
+			.endX = 2,
+			.endY = 1,
 		},
 		{
-			.startX = 2,
-			.startY = 1,
+			.valid = 1,
+			.startX = 1,
+			.startY = 0,
 			.endX = 1,
 			.endY = 1,
 		},
 		{
-			.startX = 2,
-			.startY = 2,
-			.endX = 1,
-			.endY = 2,
+			.valid = 1,
+			.startX = 0,
+			.startY = 0,
+			.endX = 0,
+			.endY = 1,
 		},
-		{}
+		{.valid=0}
 	}
 };
 
 state option2 = {
-	.board = {{'2', '2', '2'}, {'0', '1', '0'}, {'1', '0', '1'}},
+	.board = {{2, 2, 2}, {0, 1, 0}, {1, 0, 1}},
 	.moves = {
 		{
+			.valid = 1,
 			.startX = 0,
 			.startY = 0,
-			.endX = 1,
-			.endY = 0,
+			.endX = 0,
+			.endY = 1,
 		},
 		{
+			.valid = 1,
 			.startX = 0,
 			.startY = 0,
 			.endX = 1,
 			.endY = 1,
 		},
 		{
-			.startX = 0,
-			.startY = 2,
+			.valid = 1,
+			.startX = 2,
+			.startY = 0,
 			.endX = 1,
 			.endY = 1,
 		},
 		{
-			.startX = 0,
-			.startY = 2,
-			.endX = 1,
-			.endY = 2,
+			.valid = 1,
+			.startX = 2,
+			.startY = 0,
+			.endX = 2,
+			.endY = 1,
 		}
 	}
 };
